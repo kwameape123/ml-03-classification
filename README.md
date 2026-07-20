@@ -25,7 +25,7 @@ See [docs/your-files.md] for more.
 
 Links:
 
-- [ml_03_case.ipynb](notebooks/ml_03_case.ipynb)
+- [ml_03_arnold_iris.ipynb](notebooks/ml_03_arnold_iris.ipynb)
 
 ## Working Files
 

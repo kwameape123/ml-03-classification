@@ -814,3 +814,536 @@ weighted avg       0.99      0.99      0.99        69
 2026-07-19 17:57:55 | INFO | M03 | Features:  ['bill_length_mm', 'bill_depth_mm', 'flipper_length_mm', 'body_mass_g']
 2026-07-19 17:57:55 | INFO | M03 | Model:     DecisionTreeClassifier(max_depth=3)
 2026-07-19 17:57:55 | INFO | M03 | ========================
+2026-07-19 18:30:25 | INFO | M03 | === RUN START ===
+2026-07-19 18:30:25 | INFO | M03 | project=M03
+2026-07-19 18:30:25 | INFO | M03 | repo_dir=ml-03-classification
+2026-07-19 18:30:25 | INFO | M03 | python=3.14.6
+2026-07-19 18:30:25 | INFO | M03 | os=Windows 11
+2026-07-19 18:30:25 | INFO | M03 | shell=powershell
+2026-07-19 18:30:25 | INFO | M03 | cwd=notebooks
+2026-07-19 18:30:25 | INFO | M03 | github_actions=False
+2026-07-19 18:30:25 | INFO | M03 | Confirming installation:
+2026-07-19 18:30:25 | INFO | M03 |   python:       3.14.6
+2026-07-19 18:30:25 | INFO | M03 |   pandas:       3.0.3
+2026-07-19 18:30:25 | INFO | M03 |   numpy:        2.5.1
+2026-07-19 18:30:25 | INFO | M03 |   scikit-learn: 1.9.0
+2026-07-19 18:30:25 | INFO | M03 |   seaborn:      0.13.2
+2026-07-19 18:30:25 | INFO | M03 |   matplotlib:   3.11.0
+2026-07-19 18:30:25 | INFO | M03 | Loading dataset: Iris
+2026-07-19 18:30:25 | INFO | M03 | Loaded: 150 rows (instances), 5 columns
+2026-07-19 18:31:58 | INFO | M03 | Loading dataset: Iris
+2026-07-19 18:31:58 | INFO | M03 | Loaded: 150 rows (instances), 5 columns
+2026-07-19 18:31:58 | INFO | M03 | Columns in dataset: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-07-19 18:35:25 | INFO | M03 | Loading dataset: Iris
+2026-07-19 18:35:25 | INFO | M03 | Loaded: 150 rows (instances), 5 columns
+2026-07-19 18:35:25 | INFO | M03 | Columns in dataset: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-07-19 18:35:25 | INFO | M03 | Original rows: 150
+2026-07-19 18:35:25 | INFO | M03 | Model rows:    150
+2026-07-19 18:35:25 | INFO | M03 | Classes in target 'species': ['setosa', 'versicolor', 'virginica']
+2026-07-19 18:35:25 | DEBUG | M03 | Class counts:
+species
+setosa        50
+versicolor    50
+virginica     50
+Name: count, dtype: int64
+2026-07-19 18:35:25 | INFO | M03 | Feature columns: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+2026-07-19 18:35:25 | INFO | M03 | Feature data types:
+sepal_length    float64
+sepal_width     float64
+petal_length    float64
+petal_width     float64
+dtype: object
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_1
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_2
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_3
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_4
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_5
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_6
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_7
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_8
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_9
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_10
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Processing feature set: FEATURE_COLS_11
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:35:56 | INFO | M03 | Train instances: 120
+2026-07-19 18:35:56 | INFO | M03 | Test instances: 30
+2026-07-19 18:36:06 | INFO | M03 | Fitting DecisionTreeClassifier(max_depth=3)
+2026-07-19 18:36:06 | INFO | M03 | 
+        Feature Set                                           Features  No. Features  Train Accuracy  Test Accuracy
+1    FEATURE_COLS_2                          petal_length, petal_width             2        0.983333       0.966667
+10  FEATURE_COLS_11  sepal_length, sepal_width, petal_length, petal...             4        0.983333       0.966667
+9   FEATURE_COLS_10             sepal_width, petal_length, petal_width             3        0.983333       0.966667
+8    FEATURE_COLS_9            sepal_length, petal_length, petal_width             3        0.983333       0.966667
+7    FEATURE_COLS_8             sepal_length, sepal_width, petal_width             3        0.975000       0.933333
+4    FEATURE_COLS_5                          sepal_length, petal_width             2        0.975000       0.933333
+3    FEATURE_COLS_4                           sepal_width, petal_width             2        0.966667       0.933333
+6    FEATURE_COLS_7            sepal_length, sepal_width, petal_length             3        0.958333       0.900000
+2    FEATURE_COLS_3                         sepal_length, petal_length             2        0.958333       0.900000
+5    FEATURE_COLS_6                          sepal_width, petal_length             2        0.958333       0.900000
+0    FEATURE_COLS_1                          sepal_length, sepal_width             2        0.858333       0.666667
+2026-07-19 18:40:07 | INFO | M03 | Test accuracy: 0.967
+2026-07-19 18:40:07 | INFO | M03 | Per-class precision / recall / F1:
+2026-07-19 18:40:07 | DEBUG | M03 | 
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+2026-07-19 18:40:07 | INFO | M03 | Showing confusion matrix (rows = actual, cols = predicted)
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 1  train=0.667  test=0.667
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 2  train=0.967  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 3  train=0.983  test=0.967
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 4  train=0.992  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 5  train=1.000  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 6  train=1.000  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 7  train=1.000  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 8  train=1.000  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth= 9  train=1.000  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth=10  train=1.000  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth=11  train=1.000  test=0.933
+2026-07-19 18:40:52 | DEBUG | M03 |   depth=12  train=1.000  test=0.933
+2026-07-19 18:53:18 | INFO | M03 |          Feature Set                                 Features  Max Depth  Train Accuracy  Test Accuracy
+14    FEATURE_COLS_2                petal_length, petal_width          3        0.983333       0.966667
+110  FEATURE_COLS_10   sepal_width, petal_length, petal_width          3        0.983333       0.966667
+111  FEATURE_COLS_10   sepal_width, petal_length, petal_width          4        0.991667       0.966667
+115  FEATURE_COLS_10   sepal_width, petal_length, petal_width          8        1.000000       0.966667
+116  FEATURE_COLS_10   sepal_width, petal_length, petal_width          9        1.000000       0.966667
+117  FEATURE_COLS_10   sepal_width, petal_length, petal_width         10        1.000000       0.966667
+119  FEATURE_COLS_10   sepal_width, petal_length, petal_width         12        1.000000       0.966667
+118  FEATURE_COLS_10   sepal_width, petal_length, petal_width         11        1.000000       0.966667
+112  FEATURE_COLS_10   sepal_width, petal_length, petal_width          5        1.000000       0.966667
+98    FEATURE_COLS_9  sepal_length, petal_length, petal_width          3        0.983333       0.966667
+2026-07-19 19:00:11 | INFO | M03 | === RUN START ===
+2026-07-19 19:00:11 | INFO | M03 | project=M03
+2026-07-19 19:00:11 | INFO | M03 | repo_dir=ml-03-classification
+2026-07-19 19:00:11 | INFO | M03 | python=3.14.6
+2026-07-19 19:00:11 | INFO | M03 | os=Windows 11
+2026-07-19 19:00:11 | INFO | M03 | shell=powershell
+2026-07-19 19:00:11 | INFO | M03 | cwd=notebooks
+2026-07-19 19:00:11 | INFO | M03 | github_actions=False
+2026-07-19 19:00:11 | INFO | M03 | Confirming installation:
+2026-07-19 19:00:11 | INFO | M03 |   python:       3.14.6
+2026-07-19 19:00:11 | INFO | M03 |   pandas:       3.0.3
+2026-07-19 19:00:11 | INFO | M03 |   numpy:        2.5.1
+2026-07-19 19:00:11 | INFO | M03 |   scikit-learn: 1.9.0
+2026-07-19 19:00:11 | INFO | M03 |   seaborn:      0.13.2
+2026-07-19 19:00:11 | INFO | M03 |   matplotlib:   3.11.0
+2026-07-19 19:00:11 | INFO | M03 | Loading dataset: Iris
+2026-07-19 19:00:11 | INFO | M03 | Loaded: 150 rows (instances), 5 columns
+2026-07-19 19:00:11 | INFO | M03 | Columns in dataset: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-07-19 19:00:11 | INFO | M03 | Original rows: 150
+2026-07-19 19:00:11 | INFO | M03 | Model rows:    150
+2026-07-19 19:00:11 | INFO | M03 | Classes in target 'species': ['setosa', 'versicolor', 'virginica']
+2026-07-19 19:00:11 | DEBUG | M03 | Class counts:
+species
+setosa        50
+versicolor    50
+virginica     50
+Name: count, dtype: int64
+2026-07-19 19:00:11 | INFO | M03 | Feature columns: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+2026-07-19 19:00:11 | INFO | M03 | Feature data types:
+sepal_length    float64
+sepal_width     float64
+petal_length    float64
+petal_width     float64
+dtype: object
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_1
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_2
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_3
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_4
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_5
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_6
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_7
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_8
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_9
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_10
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Processing feature set: FEATURE_COLS_11
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Train instances: 120
+2026-07-19 19:00:11 | INFO | M03 | Test instances: 30
+2026-07-19 19:00:11 | INFO | M03 | Fitting DecisionTreeClassifier(max_depth=3)
+2026-07-19 19:00:11 | INFO | M03 | 
+        Feature Set                                           Features  No. Features  Train Accuracy  Test Accuracy
+1    FEATURE_COLS_2                          petal_length, petal_width             2        0.983333       0.966667
+10  FEATURE_COLS_11  sepal_length, sepal_width, petal_length, petal...             4        0.983333       0.966667
+9   FEATURE_COLS_10             sepal_width, petal_length, petal_width             3        0.983333       0.966667
+8    FEATURE_COLS_9            sepal_length, petal_length, petal_width             3        0.983333       0.966667
+7    FEATURE_COLS_8             sepal_length, sepal_width, petal_width             3        0.975000       0.933333
+4    FEATURE_COLS_5                          sepal_length, petal_width             2        0.975000       0.933333
+3    FEATURE_COLS_4                           sepal_width, petal_width             2        0.966667       0.933333
+6    FEATURE_COLS_7            sepal_length, sepal_width, petal_length             3        0.958333       0.900000
+2    FEATURE_COLS_3                         sepal_length, petal_length             2        0.958333       0.900000
+5    FEATURE_COLS_6                          sepal_width, petal_length             2        0.958333       0.900000
+0    FEATURE_COLS_1                          sepal_length, sepal_width             2        0.858333       0.666667
+2026-07-19 19:00:11 | INFO | M03 | Test accuracy: 0.967
+2026-07-19 19:00:11 | INFO | M03 | Per-class precision / recall / F1:
+2026-07-19 19:00:11 | DEBUG | M03 | 
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+2026-07-19 19:00:11 | INFO | M03 | Showing confusion matrix (rows = actual, cols = predicted)
+2026-07-19 19:00:12 | INFO | M03 |          Feature Set                                 Features  Max Depth  Train Accuracy  Test Accuracy
+14    FEATURE_COLS_2                petal_length, petal_width          3        0.983333       0.966667
+110  FEATURE_COLS_10   sepal_width, petal_length, petal_width          3        0.983333       0.966667
+111  FEATURE_COLS_10   sepal_width, petal_length, petal_width          4        0.991667       0.966667
+115  FEATURE_COLS_10   sepal_width, petal_length, petal_width          8        1.000000       0.966667
+116  FEATURE_COLS_10   sepal_width, petal_length, petal_width          9        1.000000       0.966667
+117  FEATURE_COLS_10   sepal_width, petal_length, petal_width         10        1.000000       0.966667
+119  FEATURE_COLS_10   sepal_width, petal_length, petal_width         12        1.000000       0.966667
+118  FEATURE_COLS_10   sepal_width, petal_length, petal_width         11        1.000000       0.966667
+112  FEATURE_COLS_10   sepal_width, petal_length, petal_width          5        1.000000       0.966667
+98    FEATURE_COLS_9  sepal_length, petal_length, petal_width          3        0.983333       0.966667
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 1  train=0.667  test=0.667
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 2  train=0.967  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 3  train=0.983  test=0.967
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 4  train=0.983  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 5  train=0.992  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 6  train=0.992  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 7  train=0.992  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 8  train=0.992  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth= 9  train=0.992  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth=10  train=0.992  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth=11  train=0.992  test=0.933
+2026-07-19 19:00:12 | DEBUG | M03 |   depth=12  train=0.992  test=0.933
+2026-07-19 19:00:12 | INFO | M03 | ========================
+2026-07-19 19:00:12 | INFO | M03 | SUMMARY
+2026-07-19 19:00:12 | INFO | M03 | ========================
+2026-07-19 19:00:12 | INFO | M03 | Dataset:   Iris
+2026-07-19 19:00:12 | INFO | M03 | Target:    species  (classification)
+2026-07-19 19:00:12 | INFO | M03 | Features:  ['petal_length', 'petal_width']
+2026-07-19 19:00:12 | INFO | M03 | Model:     DecisionTreeClassifier(max_depth=3)
+2026-07-19 19:00:12 | INFO | M03 | ========================
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 1 train=0.667 test=0.667
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 2 train=0.967 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 3 train=0.983 test=0.967
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 4 train=0.983 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 5 train=0.992 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 6 train=0.992 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 7 train=0.992 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 8 train=0.992 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth= 9 train=0.992 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth=10 train=0.992 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth=11 train=0.992 test=0.933
+2026-07-19 19:01:51 | DEBUG | M03 | FEATURE_COLS_2 depth=12 train=0.992 test=0.933
+2026-07-19 19:04:34 | DEBUG | M03 |   depth= 1  train=0.667  test=0.667
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 2  train=0.967  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 3  train=0.983  test=0.967
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 4  train=0.983  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 5  train=0.992  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 6  train=0.992  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 7  train=0.992  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 8  train=0.992  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth= 9  train=0.992  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth=10  train=0.992  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth=11  train=0.992  test=0.933
+2026-07-19 19:04:35 | DEBUG | M03 |   depth=12  train=0.992  test=0.933
+2026-07-19 19:13:48 | INFO | M03 | === RUN START ===
+2026-07-19 19:13:48 | INFO | M03 | project=M03
+2026-07-19 19:13:48 | INFO | M03 | repo_dir=ml-03-classification
+2026-07-19 19:13:48 | INFO | M03 | python=3.14.6
+2026-07-19 19:13:48 | INFO | M03 | os=Windows 11
+2026-07-19 19:13:48 | INFO | M03 | shell=powershell
+2026-07-19 19:13:48 | INFO | M03 | cwd=notebooks
+2026-07-19 19:13:48 | INFO | M03 | github_actions=False
+2026-07-19 19:13:48 | INFO | M03 | Confirming installation:
+2026-07-19 19:13:48 | INFO | M03 |   python:       3.14.6
+2026-07-19 19:13:48 | INFO | M03 |   pandas:       3.0.3
+2026-07-19 19:13:48 | INFO | M03 |   numpy:        2.5.1
+2026-07-19 19:13:48 | INFO | M03 |   scikit-learn: 1.9.0
+2026-07-19 19:13:48 | INFO | M03 |   seaborn:      0.13.2
+2026-07-19 19:13:48 | INFO | M03 |   matplotlib:   3.11.0
+2026-07-19 19:13:48 | INFO | M03 | Loading dataset: Iris
+2026-07-19 19:13:48 | INFO | M03 | Loaded: 150 rows (instances), 5 columns
+2026-07-19 19:13:48 | INFO | M03 | Columns in dataset: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-07-19 19:13:48 | INFO | M03 | Original rows: 150
+2026-07-19 19:13:48 | INFO | M03 | Model rows:    150
+2026-07-19 19:13:48 | INFO | M03 | Classes in target 'species': ['setosa', 'versicolor', 'virginica']
+2026-07-19 19:13:48 | DEBUG | M03 | Class counts:
+species
+setosa        50
+versicolor    50
+virginica     50
+Name: count, dtype: int64
+2026-07-19 19:13:48 | INFO | M03 | Feature columns: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+2026-07-19 19:13:48 | INFO | M03 | Feature data types:
+sepal_length    float64
+sepal_width     float64
+petal_length    float64
+petal_width     float64
+dtype: object
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_1
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_2
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_3
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_4
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_5
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_6
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_7
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_8
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_9
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_10
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Processing feature set: FEATURE_COLS_11
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Train instances: 120
+2026-07-19 19:13:48 | INFO | M03 | Test instances: 30
+2026-07-19 19:13:48 | INFO | M03 | Fitting DecisionTreeClassifier(max_depth=3)
+2026-07-19 19:13:49 | INFO | M03 | 
+        Feature Set                                           Features  No. Features  Train Accuracy  Test Accuracy
+1    FEATURE_COLS_2                          petal_length, petal_width             2        0.983333       0.966667
+10  FEATURE_COLS_11  sepal_length, sepal_width, petal_length, petal...             4        0.983333       0.966667
+9   FEATURE_COLS_10             sepal_width, petal_length, petal_width             3        0.983333       0.966667
+8    FEATURE_COLS_9            sepal_length, petal_length, petal_width             3        0.983333       0.966667
+7    FEATURE_COLS_8             sepal_length, sepal_width, petal_width             3        0.975000       0.933333
+4    FEATURE_COLS_5                          sepal_length, petal_width             2        0.975000       0.933333
+3    FEATURE_COLS_4                           sepal_width, petal_width             2        0.966667       0.933333
+6    FEATURE_COLS_7            sepal_length, sepal_width, petal_length             3        0.958333       0.900000
+2    FEATURE_COLS_3                         sepal_length, petal_length             2        0.958333       0.900000
+5    FEATURE_COLS_6                          sepal_width, petal_length             2        0.958333       0.900000
+0    FEATURE_COLS_1                          sepal_length, sepal_width             2        0.858333       0.666667
+2026-07-19 19:13:49 | INFO | M03 | Test accuracy: 0.967
+2026-07-19 19:13:49 | INFO | M03 | Per-class precision / recall / F1:
+2026-07-19 19:13:49 | DEBUG | M03 | 
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+2026-07-19 19:13:49 | INFO | M03 | Showing confusion matrix (rows = actual, cols = predicted)
+2026-07-19 19:13:51 | INFO | M03 |          Feature Set                                 Features  Max Depth  Train Accuracy  Test Accuracy
+14    FEATURE_COLS_2                petal_length, petal_width          3        0.983333       0.966667
+110  FEATURE_COLS_10   sepal_width, petal_length, petal_width          3        0.983333       0.966667
+111  FEATURE_COLS_10   sepal_width, petal_length, petal_width          4        0.991667       0.966667
+115  FEATURE_COLS_10   sepal_width, petal_length, petal_width          8        1.000000       0.966667
+116  FEATURE_COLS_10   sepal_width, petal_length, petal_width          9        1.000000       0.966667
+117  FEATURE_COLS_10   sepal_width, petal_length, petal_width         10        1.000000       0.966667
+119  FEATURE_COLS_10   sepal_width, petal_length, petal_width         12        1.000000       0.966667
+118  FEATURE_COLS_10   sepal_width, petal_length, petal_width         11        1.000000       0.966667
+112  FEATURE_COLS_10   sepal_width, petal_length, petal_width          5        1.000000       0.966667
+98    FEATURE_COLS_9  sepal_length, petal_length, petal_width          3        0.983333       0.966667
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 1  train=0.667  test=0.667
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 2  train=0.967  test=0.933
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 3  train=0.983  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 4  train=0.992  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 5  train=1.000  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 6  train=1.000  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 7  train=1.000  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 8  train=1.000  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth= 9  train=1.000  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth=10  train=1.000  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth=11  train=1.000  test=0.967
+2026-07-19 19:13:51 | DEBUG | M03 |   depth=12  train=1.000  test=0.967
+2026-07-19 19:13:51 | INFO | M03 | ========================
+2026-07-19 19:13:51 | INFO | M03 | SUMMARY
+2026-07-19 19:13:51 | INFO | M03 | ========================
+2026-07-19 19:13:51 | INFO | M03 | Dataset:   Iris
+2026-07-19 19:13:51 | INFO | M03 | Target:    species  (classification)
+2026-07-19 19:13:51 | INFO | M03 | Features:  ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+2026-07-19 19:13:51 | INFO | M03 | Model:     DecisionTreeClassifier(max_depth=3)
+2026-07-19 19:13:51 | INFO | M03 | ========================
+2026-07-19 19:16:50 | INFO | M03 | === RUN START ===
+2026-07-19 19:16:50 | INFO | M03 | project=M03
+2026-07-19 19:16:50 | INFO | M03 | repo_dir=ml-03-classification
+2026-07-19 19:16:50 | INFO | M03 | python=3.14.6
+2026-07-19 19:16:50 | INFO | M03 | os=Windows 11
+2026-07-19 19:16:50 | INFO | M03 | shell=powershell
+2026-07-19 19:16:50 | INFO | M03 | cwd=notebooks
+2026-07-19 19:16:50 | INFO | M03 | github_actions=False
+2026-07-19 19:16:50 | INFO | M03 | Confirming installation:
+2026-07-19 19:16:50 | INFO | M03 |   python:       3.14.6
+2026-07-19 19:16:50 | INFO | M03 |   pandas:       3.0.3
+2026-07-19 19:16:50 | INFO | M03 |   numpy:        2.5.1
+2026-07-19 19:16:50 | INFO | M03 |   scikit-learn: 1.9.0
+2026-07-19 19:16:50 | INFO | M03 |   seaborn:      0.13.2
+2026-07-19 19:16:50 | INFO | M03 |   matplotlib:   3.11.0
+2026-07-19 19:16:50 | INFO | M03 | Loading dataset: Iris
+2026-07-19 19:16:50 | INFO | M03 | Loaded: 150 rows (instances), 5 columns
+2026-07-19 19:16:50 | INFO | M03 | Columns in dataset: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+2026-07-19 19:16:50 | INFO | M03 | Original rows: 150
+2026-07-19 19:16:50 | INFO | M03 | Model rows:    150
+2026-07-19 19:16:50 | INFO | M03 | Classes in target 'species': ['setosa', 'versicolor', 'virginica']
+2026-07-19 19:16:50 | DEBUG | M03 | Class counts:
+species
+setosa        50
+versicolor    50
+virginica     50
+Name: count, dtype: int64
+2026-07-19 19:16:50 | INFO | M03 | Feature columns: ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+2026-07-19 19:16:50 | INFO | M03 | Feature data types:
+sepal_length    float64
+sepal_width     float64
+petal_length    float64
+petal_width     float64
+dtype: object
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_1
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_2
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_3
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_4
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_5
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_6
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_7
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_8
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_9
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_10
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Processing feature set: FEATURE_COLS_11
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Train instances: 120
+2026-07-19 19:16:50 | INFO | M03 | Test instances: 30
+2026-07-19 19:16:50 | INFO | M03 | Fitting DecisionTreeClassifier(max_depth=3)
+2026-07-19 19:16:51 | INFO | M03 | 
+        Feature Set                                           Features  No. Features  Train Accuracy  Test Accuracy
+1    FEATURE_COLS_2                          petal_length, petal_width             2        0.983333       0.966667
+10  FEATURE_COLS_11  sepal_length, sepal_width, petal_length, petal...             4        0.983333       0.966667
+9   FEATURE_COLS_10             sepal_width, petal_length, petal_width             3        0.983333       0.966667
+8    FEATURE_COLS_9            sepal_length, petal_length, petal_width             3        0.983333       0.966667
+7    FEATURE_COLS_8             sepal_length, sepal_width, petal_width             3        0.975000       0.933333
+4    FEATURE_COLS_5                          sepal_length, petal_width             2        0.975000       0.933333
+3    FEATURE_COLS_4                           sepal_width, petal_width             2        0.966667       0.933333
+6    FEATURE_COLS_7            sepal_length, sepal_width, petal_length             3        0.958333       0.900000
+2    FEATURE_COLS_3                         sepal_length, petal_length             2        0.958333       0.900000
+5    FEATURE_COLS_6                          sepal_width, petal_length             2        0.958333       0.900000
+0    FEATURE_COLS_1                          sepal_length, sepal_width             2        0.858333       0.666667
+2026-07-19 19:16:51 | INFO | M03 | Test accuracy: 0.967
+2026-07-19 19:16:51 | INFO | M03 | Per-class precision / recall / F1:
+2026-07-19 19:16:51 | DEBUG | M03 | 
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+2026-07-19 19:16:51 | INFO | M03 | Showing confusion matrix (rows = actual, cols = predicted)
+2026-07-19 19:16:52 | INFO | M03 |          Feature Set                                 Features  Max Depth  Train Accuracy  Test Accuracy
+14    FEATURE_COLS_2                petal_length, petal_width          3        0.983333       0.966667
+110  FEATURE_COLS_10   sepal_width, petal_length, petal_width          3        0.983333       0.966667
+111  FEATURE_COLS_10   sepal_width, petal_length, petal_width          4        0.991667       0.966667
+115  FEATURE_COLS_10   sepal_width, petal_length, petal_width          8        1.000000       0.966667
+116  FEATURE_COLS_10   sepal_width, petal_length, petal_width          9        1.000000       0.966667
+117  FEATURE_COLS_10   sepal_width, petal_length, petal_width         10        1.000000       0.966667
+119  FEATURE_COLS_10   sepal_width, petal_length, petal_width         12        1.000000       0.966667
+118  FEATURE_COLS_10   sepal_width, petal_length, petal_width         11        1.000000       0.966667
+112  FEATURE_COLS_10   sepal_width, petal_length, petal_width          5        1.000000       0.966667
+98    FEATURE_COLS_9  sepal_length, petal_length, petal_width          3        0.983333       0.966667
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 1  train=0.667  test=0.667
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 2  train=0.967  test=0.933
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 3  train=0.983  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 4  train=0.992  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 5  train=1.000  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 6  train=1.000  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 7  train=1.000  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 8  train=1.000  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth= 9  train=1.000  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth=10  train=1.000  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth=11  train=1.000  test=0.967
+2026-07-19 19:16:52 | DEBUG | M03 |   depth=12  train=1.000  test=0.967
+2026-07-19 19:16:52 | INFO | M03 | ========================
+2026-07-19 19:16:52 | INFO | M03 | SUMMARY
+2026-07-19 19:16:52 | INFO | M03 | ========================
+2026-07-19 19:16:52 | INFO | M03 | Dataset:   Iris
+2026-07-19 19:16:52 | INFO | M03 | Target:    species  (classification)
+2026-07-19 19:16:52 | INFO | M03 | Features:  ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+2026-07-19 19:16:52 | INFO | M03 | Model:     DecisionTreeClassifier(max_depth=3)
+2026-07-19 19:16:52 | INFO | M03 | ========================
